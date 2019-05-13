@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Udemythos</title>
+    <style>
+        body {
+            background-color: aliceblue;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        div.controls {
+            min-width: 300px;
+            min-heigth: 200px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .item1 {
+            grid-area: header;
+            padding-top: 0px !important;
+        }
+
+        .item3 {
+            grid-area: left;
+        }
+
+        .item4 {
+            grid-area: right;
+        }
+
+        .item5 {
+            grid-area: footer;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-areas: 'header header header header header' 'left left left left right' 'footer footer footer footer footer';
+            grid-gap: 0;
+            background-color: transparent;
+            padding: 0;
+        }
+
+        .grid-container > div {
+            background-color: transparent;
+            text-align: center;
+            padding: 3px 0;
+            font-size: 14px;
+        }
+
+
+        h4 {
+            margin: 0px;
+            width: 100%;
+            background-color: dodgerblue;
+            color: white;
+            font-family: Verdana;
+            text-align: center;
+            font-size: 20px;
+
+        }
+
+    </style>
+    <script src="js/popup.js"></script>
+</head>
+<body>
+
+<div class="grid-container controls">
+    <div class="item1"><h4>Udemyth<img alt="Udemythos v2019.0.1" src="./img/athena-16.png">s </h4></div>
+    <div class="item3"><label for="playrate">Play Rate</label>
+        <input data-sizing="px" id="playrate" max="16" min="0.1" name="playrate" step="0.1" type="range" value="1.0">
+    </div>
+    <div class="item4"><input id="currentPlayRate" readonly="readonly" size="2" style="width: 30px;" type="text"></div>
+    <div class="item5" style="text-align: right;">
+        <button id="setPlayRate_x1">x1</button>
+        <button id="setPlayRate">Set Play Rate</button>
+    </div>
+</div>
+
+
+</body>
+</html>
