@@ -13,7 +13,7 @@
   "icons": {
     "16": "./img/athena-16.png",
     "32": "./img/athena-32.png",
-    "512": "./img/athena-48.png",
+    "48": "./img/athena-48.png",
     "64": "./img/athena-64.png",
     "128": "./img/athena-128.png"
   },
