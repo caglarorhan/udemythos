@@ -25,3 +25,9 @@ A basic browser extension try to add some features to Udemy student video course
  - Adjust Udemy video players playing rate (speed).
  
  
+ **Version 2019.0.2 is currently at:**
+ 
+ - Forefox Add-ons: https://addons.mozilla.org/en-US/firefox/addon/udemythos/
+ 
+  > Debugs: 
+  - 48px icon bug corrected

@@ -3,7 +3,7 @@
   "short_name": "Udemythos",
   "description": "Udemy student page capability enhancer browser extension.",
   "homepage_url": "https://github.com/caglarorhan/udemythos.git",
-  "version": "2019.0.1",
+  "version": "2019.0.2",
   "manifest_version": 2,
   "browser_action": {
     "default_popup": "popup.html",
